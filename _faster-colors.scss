@@ -9,14 +9,19 @@
 // .my-other-awesome-class
 //   @extend yellow
 
+
+// this needs refactoring to looping through a list of color names...
+
+
 // import colors
 @import "../colors/sass/variables";
 @import "../colors/sass/links";
 
 // foreground colors: type and borders
-@mixin dark-foreground($foreground: $black, $border: 0px solid $foreground) 
+@mixin dark-foreground($foreground: $black, $border: 0px solid $foreground) {
   color: $foreground
   border: $border
+}
 
 @mixin light-foreground($foreground: $white, $border: 0px solid $foreground) {
   color: $foreground;
