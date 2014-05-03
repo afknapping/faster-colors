@@ -1,0 +1,25 @@
+{
+  "name": "faster-colors",
+  "version": "0.0.0",
+  "homepage": "https://github.com/filtercake/faster-colors",
+  "authors": [
+    "filtercake <fabian@superpursuitmo.de>"
+  ],
+  "description": "uses mrmrs/colors to generate single line foreground/background color combinations",
+  "main": "_faster-colors.scss",
+  "keywords": [
+    "sass",
+    "colors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "colors": "~0.2.0"
+  }
+}
