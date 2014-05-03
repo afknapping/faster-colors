@@ -19,8 +19,8 @@
 
 // foreground colors: type and borders
 @mixin dark-foreground($foreground: $black, $border: 0px solid $foreground) {
-  color: $foreground
-  border: $border
+  color: $foreground;
+  border: $border;
 }
 
 @mixin light-foreground($foreground: $white, $border: 0px solid $foreground) {
